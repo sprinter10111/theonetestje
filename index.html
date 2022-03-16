@@ -4,13 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style href="style.css"></style>
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1>sdjfjks</h1>
-        <p>yeet</p>
-    </div>
+    <h1>Online in 5min met Heroku en GitHub?</h1>
+    <ul>
+          <li><strong>Eenmalig:</strong> Maak gratis accounts aan op <a href="https://github.com">GitHub.com</a> en <a href="http://heroku.com">Heroku.com</a></li>
+          <li><strong>Eenmalig:</strong> Installeer <a href="https://desktop.github.com/">GitHub Desktop</a> + de commandline tools</li>
+          <li><strong>Eenmalig:</strong> Installeer de <a href="https://devcenter.heroku.com/articles/heroku-cli">Heroku Command Line Interface (CLI)</a></li>
+          <li>We gaan er van uit dat je een Node app lokaal in een folder op je computer hebt staan. Je hebt je terminal venster open en je bent met het cd-commando naar de folder met je app gegaan.</li><li>Je app bevat een bestand met naam Procfile (met de lijn <code>web: node index.js
+                </code>) en in je index.js heb je de regels (<code>app.set('port', (process.env.PORT || 5000));</code> en <code>app.listen(app.get('port'), function() {
+    });</code>).</li>
+          <li>Je zorgt voor een bestand met naam .gitignore met daarin volgende regels:<br> <code>/node_modules<br>
+    npm-debug.log<br>
+    .DS_Store<br>
+    /*.env</code></li>
+          <li>Je bent in de terminal ingelogd bij heroku: <code>heroku login</code></li>
+          <li><strong>ENKEL DE EERSTE KEER BIJ EEN NIEUWE APP:</strong></li>
+          <li><strong>Stap 1:</strong> Maak een nieuwe repository aan via de GitHub website. Je kiest enkel de naam, en laat de voorgestelde settings ongemoeid.</li>
+          <li><strong>Stap 2:</strong> In je terminal in je app folder: <code>git init</code></li>
+          <li><strong>Stap 3:</strong> In je terminal in je app folder: <code>git add .</code></li>
+          <li><strong>Stap 4:</strong> In je terminal in je app folder: <code>git commit -am "mijn eerste commit"</code></li>
+          <li><strong>Stap 5:</strong> In je terminal in je app folder: <code>git remote add origin https://github.com/jouwgebruikersnaam/jouwrepositorynaam.git</code></li>
+          <li><strong>Stap 6:</strong> In je terminal in je app folder: <code>git push -u origin master</code></li>
+           <li><strong>Stap 6:</strong> In je terminal in je app folder: <code>heroku create</code></li>
+          <li><strong>Stap 7:</strong> In je terminal in je app folder: <code>git push heroku master</code></li>
+          <li><strong>EENS DE VORIGE STAPPEN DOORLOPEN ZIJN, BIJ VOLGENDE WIJZIGINGEN:</strong></li>
+           <li><strong>Stap 1:</strong> In je terminal in je app folder: <code>git add -A</code></li>
+          <li><strong>Stap 2:</strong> In je terminal in je app folder: <code>git commit -am "boodschap die de aanpassing kort beschrijft"</code></li>
+          <li><strong>Stap 3:</strong> In je terminal in je app folder: <code>git push origin master</code></li>
+          <li><strong>Stap 4:</strong> In je terminal in je app folder: <code>git push heroku master</code></li>
+          
+    </ul>
+    <p>Thank you come again! :-)</p>
+    
+    <p>Ter info: handige terminal commando's zijn: <ul><li>ls (inhoud van een folder)</li><li>cd foldernaam (verander naar de folder foldernaam)</li><li>cd .. (terug naar de bovenliggende folder)</li><li>cd (terug naar home folder)</li></ul></p>
     
 </body>
 </html>

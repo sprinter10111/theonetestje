@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: helvetica;
+  margin: 50px auto;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+a {
+  color: cadetblue;
+}
+
+li,
+p {
+  margin-top: 25px;
+  line-height: 1.5em;
+}
+
+strong {
+  font-weight: 900;
+}
+
+code {
+  color: tomato;
+}
