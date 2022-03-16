@@ -1,0 +1,19 @@
+{
+  "name": "theonetestje",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sprinter10111/theonetestje.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sprinter10111/theonetestje/issues"
+  },
+  "homepage": "https://github.com/sprinter10111/theonetestje#readme"
+}
